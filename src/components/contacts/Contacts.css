@@ -1,0 +1,30 @@
+.Contacts-container > img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0.5rem;
+}
+
+.online {
+  height: 0.8rem;
+  width: 0.8rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(3, 214, 3);
+  color: rgb(3, 214, 3);
+  transform: translateX(66px) translateY(-32px);
+}
+
+.offline {
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+.Contacts {
+  display: flex;
+  height: 8rem;
+  width: 100vw;
+  overflow-y: scroll;
+  align-items: center;
+}
