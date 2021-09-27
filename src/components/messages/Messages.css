@@ -29,6 +29,7 @@
   color: rgb(78, 78, 78);
   font-size: 0.9rem;
   margin-top: 0.3rem;
+  font-weight: 600;
 }
 
 .col-3 {
@@ -43,11 +44,12 @@
   font-size: 0.8rem;
   color: rgb(78, 78, 78);
   margin-right: 1rem;
-  margin-top: 0.6rem;
+  margin-top: 0.8rem;
+  font-weight: 600;
 }
 
 .notif {
-  margin-top: 0.6rem;
+  margin-top: 0.5rem;
   margin-right: 1rem;
   height: 1.5rem;
   width: 1.5rem;
@@ -58,6 +60,7 @@
   border-radius: 50%;
   color: white;
   font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .vert-scroll {

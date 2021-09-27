@@ -15,11 +15,11 @@ const Messages = () => {
                         </div>
                         <div className='col-2'>
                             <h3>{contact.name}</h3>
-                            <p>this is a stock paragraph message to show hello </p>
+                            <p>{contact.msg}</p>
                         </div>
                         <div className='col-3'>
-                            <p>12:03pm</p>
-                            <div className='notif'><span>1</span></div>
+                            <p>{contact.timestamp}</p>
+                            <div className='notif'><span>{contact.notif}</span></div>
                         </div>
                     </div>
                 ))}
